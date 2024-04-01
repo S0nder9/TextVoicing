@@ -1,0 +1,252 @@
+:root {
+    --background-color: #323233;
+    --white-color: #fff;
+    --background-block: #e2dede;
+    --off-white-color: #F4F5F5;
+    --off-white-color-card: #edf1f1;
+    --black-color: #000;
+    --dark-color: #25262B;
+    --blue-color: #3a6cff;
+    --gray-color: #929194;
+    --light-black-color: #222;
+    --light-brown-color: #807067;
+    --light-blue-color: #4338ca;
+    --header-color: rgba(0, 0, 0, 0.767);
+    --element-color: rgba(255, 255, 255, .08);
+    --wave-1: rgba(255, 255, 255, 0.7);
+    --wave-2: rgba(255, 255, 255, 0.5);
+    --wave-3: rgba(255, 255, 255, 0.3);
+    --wave-4: #e2dede;
+    --placeholder-color: #9e9ea7;
+    --slider-bg: rgb(206, 204, 204);
+    --level-color: rgba(63, 81, 181, 0.712);
+    --card-background-color: #fff;
+    --link-color-yt: #ff0000;
+    --light-gray-color: rgba(219, 219, 219, 0.466);
+    --yt-dark-white-color: rgb(209 213 219);
+    --tw-gradient-to: rgb(22, 22, 22);
+    --gray-button-color: #232424;
+    --yellow-star-color: #ffd43b;
+    --webkit-scrollbar-track: rgba(35, 36, 36, 0);
+    --webkit-scrollbar-thumb: #99999973;
+}
+
+.bottom-color {
+    background-color: var(--light-blue-color);
+}
+
+#h-for-block-white {
+    color: var(--white-color);
+}
+
+#BG-link {
+    color: var(--white-color);
+}
+
+.main-container {
+    background-color: var(--background-color);
+    /* background-image: url(kandinsky-download-1710671507667.png); */
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.block-main-1 {
+    background-color: var(--background-block);
+}
+
+.block-main-2 {
+    background-color: var(--dark-color);
+}
+
+.circle-sub-yt {
+    color: var(--link-color-yt);
+}
+
+.star-sub-GitHub {
+    color: var(--yellow-star-color);
+}
+
+.circle-sub-VK {
+    color: var(--blue-color);
+}
+
+.quantity-sub-yt {
+    color: var(--link-color-yt);
+}
+
+.quantity-sub-VK {
+    color: var(--blue-color);
+}
+
+.block-main-3 {
+    background-color: var(--tw-gradient-to);
+}
+
+.waves-between-blocks {
+    background-color: var(--dark-color);
+}
+
+.nav {
+    background-color: var(--element-color);
+}
+
+.main__header {
+    background-color: var(--header-color);
+}
+
+#card-quantity-icon {
+    color: var(--placeholder-color);
+}
+
+#links-block {
+    background-color: var(--black-color);
+}
+
+.fill-youtube-container {
+    background-color: var(--link-color-yt);
+}
+
+.fill-VK-container {
+    background-color: var(--blue-color);
+}
+
+.fill-GitHub-container {
+    background-color: var(--gray-button-color);
+}
+
+#dark__text-quantity {
+    color: var(--yt-dark-white-color);
+}
+
+.quantity-star-GitHub {
+    color: var(--white-color);
+}
+
+.cards-container::-webkit-scrollbar-thumb {
+    background-color: var(--webkit-scrollbar-thumb);
+}
+
+.cards-container::-webkit-scrollbar-track {
+    background-color: var(--webkit-scrollbar-track);
+}
+
+#icon {
+    color: var(--white-color);
+}
+
+#nav-p::after {
+    color: var(--white-color);
+}
+
+#container {
+    background-color: var(--element-color);
+}
+
+#text-container-for-yt-block-large {
+    color: var(--white-color);
+}
+
+#text-container-for-yt-block-small {
+    color: var(--placeholder-color);
+}
+
+#text-container-for-block-default {
+    color: var(--white-color);
+}
+
+.fill-wave-1 {
+    fill: var(--wave-1);
+}
+
+.fill-wave-2 {
+    fill: var(--wave-2);
+}
+
+.fill-wave-3 {
+    fill: var(--wave-3);
+}
+
+.fill-wave-4 {
+    fill: var(--wave-4);
+}
+
+#large__text-container {
+    color: var(--white-color);
+}
+
+#text-block-1-p {
+    color: var(--placeholder-color);
+}
+
+#h-for-block {
+    color: var(--black-color);
+}
+
+.textarea::placeholder {
+    color: var(--placeholder-color);
+}
+
+.slider .volume {
+    color: var(--icon-color);
+}
+
+.slider .level {
+    background: var(--slider-bg);
+}
+
+#card-for-block-1:hover {
+    background-color: var(--off-white-color-card);
+}
+
+.text-recording p {
+    color: var(--white-color);
+}
+
+#fa-play {
+    color: var(--white-color);
+}
+
+#fa-play-second {
+    color: var(--white-color);
+}
+
+#fa-pause {
+    color: var(--white-color);
+}
+
+.text-sound {
+    color: var(--white-color);
+}
+
+.output-main {
+    color: var(--white-color);
+}
+
+#large__text-quantity {
+    color: var(--white-color);
+}
+
+.cta {
+    color: var(--white-color);
+    background-color: var(--blue-color);
+}
+
+@keyframes color_anim {
+    0% {
+        fill: var(--white-color);
+    }
+
+    50% {
+        fill: var(--blue-color);
+    }
+
+    100% {
+        fill: var(--white-color);
+    }
+}
+
+#card-for-block-1 {
+    background-color: var(--card-background-color);
+}
